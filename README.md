@@ -1,8 +1,6 @@
 <div align="center">
 
-![Banner](https://svg-banners.vercel.app/api?type=glitch&text1=William%20Gaugirard&width=900&height=200)
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Graphic+%26+UX+Designer+%F0%9F%8E%A8;AI+%26+Generative+Design+Enthusiast+%F0%9F%A4%96;Community+%26+Content+Manager+%F0%9F%93%A1;Based+in+Li%C3%A8ge%2C+Belgium+%F0%9F%87%A7%F0%9F%87%AA" alt="Typing SVG" />
+![Banner](assets/banner.svg)
 
 <br/>
 
