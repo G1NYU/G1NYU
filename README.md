@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://svg-banners.vercel.app/api?type=glitch&text1=William%20Gaugirard&text2=%F0%9F%8E%A8%20Graphic%20%26%20UX%20Designer%20%7C%20AI%20Explorer%20%7C%20Content%20Creator&width=900&height=200" alt="Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=William%20Gaugirard&fontSize=48&fontColor=a78bfa&fontAlignY=45&desc=Graphic%20%26%20UX%20Designer%20%7C%20AI%20Explorer%20%7C%20Content%20Creator&descAlignY=68&descSize=18&descFontColor=c4b5fd" alt="Banner" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Graphic+%26+UX+Designer+%F0%9F%8E%A8;AI+%26+Generative+Design+Enthusiast+%F0%9F%A4%96;Community+%26+Content+Manager+%F0%9F%93%A1;Based+in+Li%C3%A8ge%2C+Belgium+%F0%9F%87%A7%F0%9F%87%AA" alt="Typing SVG" />
 
