@@ -1,131 +1,136 @@
 <div align="center">
-  <img src="https://camo.githubusercontent.com/0b781bd7a629969bdb8ed8bc7867fc0fa047da115dea1666985c39095bded9e2/68747470733a2f2f63646e2e706670732e67672f62616e6e6572732f353438302d6461726b2d6165737468657469632d616e696d652e706e67" alt="Profile Banner" width="100%" />
+
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=William%20Gaugirard&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Graphic%20%26%20UX%20Designer%20%7C%20AI%20Explorer%20%7C%20Content%20Creator&descAlignY=58&descSize=18&animation=fadeIn)
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Graphic+%26+UX+Designer+%F0%9F%8E%A8;AI+%26+Generative+Design+Enthusiast+%F0%9F%A4%96;Community+%26+Content+Manager+%F0%9F%93%A1;Based+in+Li%C3%A8ge%2C+Belgium+%F0%9F%87%A7%F0%9F%87%AA" alt="Typing SVG" />
+
+<br/>
+
+[![GitHub followers](https://img.shields.io/github/followers/G1NYU?style=for-the-badge&logo=github&logoColor=white&color=6d28d9)](https://github.com/G1NYU)
+[![Profile Views](https://komarev.com/ghpvc/?username=G1NYU&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/G1NYU)
+[![Email](https://img.shields.io/badge/Email-willgaugirard%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:willgaugirard@gmail.com)
+
 </div>
+
+---
+
+## 🧬 About Me
+
+```yaml
+name:       William Gaugirard
+alias:      G1NYU
+location:   Liège, Belgium 🇧🇪
+roles:
+  - Graphic & UX Designer
+  - Community & Content Manager
+  - AI & Prompt Engineering Enthusiast
+currently:
+  - Training as Administrative Agent @ Institut de la Charlemagne (Herstal)
+  - Building AI-powered tools & visual experiences
+interests:
+  - Asian culture & anime 🎌
+  - Drawing & digital illustration 🖊️
+  - Generative AI & prompt engineering 🤖
+  - Photography & visual storytelling 📷
+contact:    willgaugirard@gmail.com
+```
+
+---
+
+## 🛠️ Skills & Tech Stack
 
 <div align="center">
 
-# Hi 👋, I'm William Gaugirard
+### 🎨 Design & Creative Tools
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
+![InDesign](https://img.shields.io/badge/InDesign-FF3366?style=for-the-badge&logo=adobeindesign&logoColor=white)
+![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
+![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=adobelightroom&logoColor=white)
 
-### A passionate graphic designer from [France] 🇫🇷
+### 💻 Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-<img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.6435-9/35734901_10155217577460683_2029291555377905664_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dEI1dFj0C1cQ7kNvwEsosnG&_nc_oc=AdkLZlvcC5iOzygbB7iwPv7GZgHCu3Nu0mheIknFw2ii6JQiSGggeXLwgeI44LlRdYY&_nc_zt=23&_nc_ht=scontent.fbru1-1.fna&_nc_gid=zWYIIE_5BGeSPKLyI1I79g&oh=00_Affa0NAkktpp0ZSXhVN-qpjF6jgSsAXQK6Q-7WgwTX7N1Q&oe=69247ED0" alt="William Gaugirard" width="150" height="150" style="border-radius: 50%;" />
-
-</div>
-
-## 🚀 About Me
-
-Hey there! I'm William, a graphic designer hailing from France. I'm really into Asian culture and love to draw. 🎨
-
-## 💼 Current Work
-
-<div align="left">
-
-- 🔭 I'm currently working on **Neon glass**
-
-</div>
-
-## 📚 Learning & Knowledge
-
-<div align="left">
-
-- 🌱 I'm currently learning **CSS and TypeScript** to enhance my web development skills.
+### 🤖 AI & Emerging Tech
+![Generative AI](https://img.shields.io/badge/Generative%20AI-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-6D28D9?style=for-the-badge&logo=sparkles&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
-## 💼 Work Experience
+---
 
-| Company             | Position | Duration |
-| ------------------- | -------- | -------- |
-| B2a communication | Intern   | -        |
+## 🚀 Featured Projects
 
-### Intern at B2a Communication
+<div align="center">
 
-## 🚀 Projects
+| Project | Description | Stack | Links |
+|---|---|---|---|
+| 🧠 **SignalStack** | AI-powered knowledge map — think *Perplexity, wrapped* | AI · Web | [GitHub](https://github.com/G1NYU/SignalStack) |
+| 💎 **Neon Glass** | Personal portfolio & blog with neon-glass aesthetic | TypeScript · CSS · Node.js | [Live](https://dark-owls-hunt.vly.sh/) · [GitHub](https://github.com/G1NYU/neon-glass) |
 
-| Project      | Description             | Links                                                                 |
-| ------------ | ----------------------- | --------------------------------------------------------------------- |
-| Neon Glass | Portfolio and blog site | [Live](https://dark-owls-hunt.vly.sh/) / [GitHub](https://github.com/G1NYU/neon-glass) |
+</div>
 
-### Neon Glass
+---
 
-**Technologies Used:** TypeScript, CSS, JavaScript, Node.js
+## 💼 Experience
+
+<div align="center">
+
+| Role | Company | Highlights |
+|---|---|---|
+| 🎯 **Community & Content Manager** | — | Anti-spam moderation, visual content design (character showcases), community engagement & retention |
+| 🎨 **Graphic Designer** | B2a Communication | Brand design, print & digital production |
+| 🖌️ **Graphic Designer** | GIPS Soissons | Visual identity & communication materials |
+
+</div>
+
+---
 
 ## 🎓 Education
 
-| Institution          | Degree      | Duration |
-| -------------------- | ----------- | -------- |
-| St Remy College      | Bachelor's  | -        |
-| Haute Ecole de Liege | Bachelor's  | -        |
+<div align="center">
 
-### Bachelor's in Communications
-*St Remy College*
-
-### Bachelor's in Printing and Graphic Design
-*Haute Ecole de Liege*
-
-## 💼 Internships
-
-| Company       | Position          | Duration |
-| ------------- | ----------------- | -------- |
-| GIPS Soissons | Graphic Designer | -        |
-
-### Graphic Designer at GIPS Soissons
-
-## 📞 Contact & Links
-
-<div align="left">
-
-- 📫 How to reach me: **willgaugirard@gmail.com**
-- 👨‍💻 Portfolio: [https://drive.google.com/file/d/1pGeNb5H6RfvTgdNrmSz9xALro7734tLr/view?usp=sharing](https://drive.google.com/file/d/1pGeNb5H6RfvTgdNrmSz9xALro7734tLr/view?usp=sharing)
-- 📄 Experiences: [https://drive.google.com/file/d/1T1r3MgnMx5nuGbQAcvTfDhukrJP270hO/view?usp=sharing](https://drive.google.com/file/d/1T1r3MgnMx5nuGbQAcvTfDhukrJP270hO/view?usp=sharing)
+| Institution | Program |
+|---|---|
+| 🏫 Institut de la Charlemagne, Herstal | Administrative Agent Training *(in progress)* |
+| 🎓 Haute École de Liège | Bachelor's — Printing & Graphic Design |
+| 📰 St Remy College | Bachelor's — Communications |
+| 🌐 University of Michigan *(online)* | Journalism courses |
+| ✏️ Self-directed | Photography · Drawing · Graphic Design · Prompt Engineering |
 
 </div>
 
-## ⚡ Fun Fact
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
 
-I'm a mix of funny and serious, and I can balance a binder on one finger! 🤹‍♂️
+<img src="https://github-readme-stats.vercel.app/api?username=G1NYU&show_icons=true&theme=midnight-purple&border_radius=12&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd" width="47%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=G1NYU&theme=midnight-purple&hide_border=true&background=0d1117&stroke=7c3aed&ring=a78bfa&fire=c4b5fd&currStreakLabel=a78bfa" width="47%" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1NYU&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd" width="40%" />
 
 </div>
+
+---
 
 ## 🌐 Connect with Me
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/G1NYU)&nbsp;&nbsp;&nbsp;[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/icecoldwill)&nbsp;&nbsp;&nbsp;[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/https://www.youtube.com/@ginyuTV)&nbsp;&nbsp;&nbsp;[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/giinyu)
-
-</div>
-
-## 🛠️ Skills & Technologies
-
-### 💻 Programming Languages
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)&nbsp;&nbsp;&nbsp;![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-### 💻 Mobile App Development
-
-![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=white)&nbsp;&nbsp;&nbsp;![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-### 💻 Frontend Development
-
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;&nbsp;&nbsp;![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-### 💻 Backend Development
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### 💻 Framework
-
-![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-
-## 📊 GitHub Stats & Activity
-
-<div align="center">
-
-<!-- GitHub Trophy: GitHub username required -->
-
-<!-- Visitor Count Badge: GitHub username required -->
+[![GitHub](https://img.shields.io/badge/GitHub-G1NYU-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/G1NYU)
+[![Instagram](https://img.shields.io/badge/Instagram-icecoldwill-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/icecoldwill)
+[![YouTube](https://img.shields.io/badge/YouTube-GinyuTV-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ginyuTV)
+[![Discord](https://img.shields.io/badge/Discord-giinyu-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/giinyu)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20My%20Work-7c3aed?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1pGeNb5H6RfvTgdNrmSz9xALro7734tLr/view?usp=sharing)
 
 </div>
 
@@ -133,25 +138,8 @@ I'm a mix of funny and serious, and I can balance a binder on one finger! 🤹�
 
 <div align="center">
 
-### 🎯 "Code is like humor. When you have to explain it, it's bad." – Cory House
+> *"Design is not just what it looks like and feels like. Design is how it works."* — Steve Jobs
 
-**Thank you for visiting my profile! 😊**
-
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=brightgreen&style=flat-square&label=Profile+Views)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer)
 
 </div>
-
-<!--
-**G1NYU/G1NYU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
