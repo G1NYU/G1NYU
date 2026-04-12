@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=William%20Gaugirard&fontSize=48&fontColor=a78bfa&fontAlignY=45&desc=Graphic%20%26%20UX%20Designer%20%7C%20AI%20Explorer%20%7C%20Content%20Creator&descAlignY=68&descSize=18&descFontColor=c4b5fd" alt="Banner" width="100%" />
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=William%20Gaugirard&fontSize=48&fontColor=a78bfa&fontAlignY=45&desc=Graphic%20%26%20UX%20Designer%20%7C%20AI%20Explorer%20%7C%20Content%20Creator&descAlignY=68&descSize=18&descFontColor=c4b5fd)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Graphic+%26+UX+Designer+%F0%9F%8E%A8;AI+%26+Generative+Design+Enthusiast+%F0%9F%A4%96;Community+%26+Content+Manager+%F0%9F%93%A1;Based+in+Li%C3%A8ge%2C+Belgium+%F0%9F%87%A7%F0%9F%87%AA" alt="Typing SVG" />
 
@@ -140,6 +140,6 @@ contact:    willgaugirard@gmail.com
 
 > *"Design is not just what it looks like and feels like. Design is how it works."* — Steve Jobs
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" />
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer)
 
 </div>
