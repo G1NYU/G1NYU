@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <rect width="495" height="195" rx="12" fill="#0d1117"/>
+  <text x="25" y="35" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#a78bfa">G1NYU's GitHub Stats</text>
+  <line x1="25" y1="45" x2="470" y2="45" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Stars -->
+  <text x="25" y="75" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">⭐ Total Stars Earned:</text>
+  <text x="300" y="75" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">-</text>
+
+  <!-- Commits -->
+  <text x="25" y="100" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">💻 Total Commits (2026):</text>
+  <text x="300" y="100" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">-</text>
+
+  <!-- PRs -->
+  <text x="25" y="125" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">🔀 Total PRs:</text>
+  <text x="300" y="125" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">-</text>
+
+  <!-- Issues -->
+  <text x="25" y="150" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">🐛 Total Issues:</text>
+  <text x="300" y="150" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">-</text>
+
+  <!-- Repos -->
+  <text x="25" y="175" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">📦 Contributed to (last year):</text>
+  <text x="300" y="175" font-family="Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">-</text>
+
+  <text x="380" y="185" font-family="Segoe UI, sans-serif" font-size="9" fill="#6e40c9">Loading via Actions…</text>
+</svg>
