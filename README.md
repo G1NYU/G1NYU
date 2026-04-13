@@ -109,12 +109,12 @@ contact:    willgaugirard@gmail.com
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-gamma.vercel.app/api?username=G1NYU&show_icons=true&theme=midnight-purple&border_radius=12&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd" width="47%" />
+<img src="./assets/stats.svg" width="47%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=G1NYU&theme=midnight-purple&hide_border=true&background=0d1117&stroke=7c3aed&ring=a78bfa&fire=c4b5fd&currStreakLabel=a78bfa" width="47%" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats-eight-gamma.vercel.app/api/top-langs/?username=G1NYU&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd" width="40%" />
+<img src="./assets/top-langs.svg" width="40%" />
 
 </div>
 
