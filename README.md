@@ -129,6 +129,7 @@ contact:    willgaugirard@gmail.com
 [![YouTube](https://img.shields.io/badge/YouTube-GinyuTV-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ginyuTV)
 [![Discord](https://img.shields.io/badge/Discord-giinyu-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/giinyu)
 [![Portfolio](https://img.shields.io/badge/Portfolio-View%20My%20Work-7c3aed?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1pGeNb5H6RfvTgdNrmSz9xALro7734tLr/view?usp=sharing)
+[![CV](https://img.shields.io/badge/CV-View%20Online-c9a46a?style=for-the-badge&logo=readthedocs&logoColor=white)](https://g1nyu.github.io/cv/)
 
 </div>
 
