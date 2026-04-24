@@ -70,6 +70,7 @@ contact:    willgaugirard@gmail.com
 |---|---|---|---|
 | 🧠 **SignalStack** | AI-powered knowledge map — think *Perplexity, wrapped* | AI · Web | [GitHub](https://github.com/G1NYU/SignalStack) |
 | 💎 **Neon Glass** | Personal portfolio & blog with neon-glass aesthetic | TypeScript · CSS · Node.js | [Live](https://dark-owls-hunt.vly.sh/) · [GitHub](https://github.com/G1NYU/neon-glass) |
+| 📚 **Mihon → AnymeX** | Convert Mihon manga library to AnymeX format with AniList metadata | Python · JS · GraphQL | [Live](https://g1nyu.github.io/mihon-to-anymex) · [GitHub](https://github.com/G1NYU/mihon-to-anymex) |
 
 </div>
 
