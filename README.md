@@ -82,7 +82,7 @@ contact:    willgaugirard@gmail.com
 
 | Role | Company | Highlights |
 |---|---|---|
-| 🎯 **Community & Content Manager** | — | Anti-spam moderation, visual content design (character showcases), community engagement & retention |
+| 🎯 **Community & Content Manager** | Sai Wen Game Co | Anti-spam moderation, visual content design (character showcases), community engagement & retention |
 | 🎨 **Graphic Designer** | B2a Communication | Brand design, print & digital production |
 | 🖌️ **Graphic Designer** | GIPS Soissons | Visual identity & communication materials |
 
