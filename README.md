@@ -23,7 +23,7 @@ roles:
   - Community & Content Manager
   - AI & Prompt Engineering Enthusiast
 currently:
-  - Training as Administrative Agent @ Institut de la Charlemagne (Herstal)
+  - Training as Administrative Agent @ asbl la Charlemagn'rie (Herstal)
   - Building AI-powered tools & visual experiences
 interests:
   - Asian culture & anime 🎌
@@ -96,7 +96,7 @@ contact:    willgaugirard@gmail.com
 
 | Institution | Program |
 |---|---|
-| 🏫 Institut de la Charlemagne, Herstal | Administrative Agent Training *(in progress)* |
+| 🏫 asbl la Charlemagn'rie, Herstal | Administrative Agent Training *(in progress)* |
 | 🎓 Haute École de Liège | Bachelor's — Printing & Graphic Design |
 | 📰 St Remy College | Bachelor's — Communications |
 | 🌐 University of Michigan *(online)* | Journalism courses |
