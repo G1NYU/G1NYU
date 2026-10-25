@@ -1,143 +1,107 @@
 <div align="center">
 
-![Banner](assets/banner.svg)
+<img src="assets/banner.svg" alt="G1NYU — Catppuccin Mocha profile banner" width="100%" />
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/G1NYU?style=for-the-badge&logo=github&logoColor=white&color=6d28d9)](https://github.com/G1NYU)
-[![Profile Views](https://komarev.com/ghpvc/?username=G1NYU&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/G1NYU)
-[![Email](https://img.shields.io/badge/Email-willgaugirard%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:willgaugirard@gmail.com)
+<a href="https://github.com/G1NYU"><img alt="GitHub followers" src="https://img.shields.io/github/followers/G1NYU?style=for-the-badge&logo=github&logoColor=CDD6F4&labelColor=181825&color=CBA6F7" /></a>
+<a href="https://github.com/G1NYU?tab=repositories"><img alt="Public repositories" src="https://img.shields.io/badge/public_repos-22-181825?style=for-the-badge&logo=git&logoColor=CDD6F4&labelColor=181825" /></a>
+<img alt="Focus" src="https://img.shields.io/badge/focus-web_%7C_media_%7C_automation-181825?style=for-the-badge&logo=vercel&logoColor=CDD6F4&labelColor=181825" />
+<img alt="Design" src="https://img.shields.io/badge/design-dark_mode_first-181825?style=for-the-badge&logo=figma&logoColor=CDD6F4&labelColor=181825" />
 
 </div>
 
 ---
 
-## 🧬 About Me
+## About
 
-```yaml
-name:       William Gaugirard
-alias:      G1NYU
-location:   Liège, Belgium 🇧🇪
-roles:
-  - Graphic & UX Designer
-  - Community & Content Manager
-  - AI & Prompt Engineering Enthusiast
-currently:
-  - Training as Administrative Agent @ asbl la Charlemagn'rie (Herstal)
-  - Building AI-powered tools & visual experiences
-interests:
-  - Asian culture & anime 🎌
-  - Drawing & digital illustration 🖊️
-  - Generative AI & prompt engineering 🤖
-  - Photography & visual storytelling 📷
-contact:    willgaugirard@gmail.com
-```
+I build practical software where **web development, media automation, and self-hosted infrastructure** meet. Most projects begin with a concrete workflow problem: migrating a manga library, organizing media collections, aggregating streaming sources, or turning repetitive work into a reliable script.
 
----
-
-## 🛠️ Skills & Tech Stack
+I favor modular architecture, reproducible setups, and interfaces that feel intentional. Dark UI, restrained typography, and Catppuccin-inspired color systems recur across my work.
 
 <div align="center">
-
-### 🎨 Design & Creative Tools
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
-![InDesign](https://img.shields.io/badge/InDesign-FF3366?style=for-the-badge&logo=adobeindesign&logoColor=white)
-![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white)
-![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=adobelightroom&logoColor=white)
-
-### 💻 Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### 🤖 AI & Emerging Tech
-![Generative AI](https://img.shields.io/badge/Generative%20AI-8B5CF6?style=for-the-badge&logo=openai&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-6D28D9?style=for-the-badge&logo=sparkles&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
-
+<table>
+<tr>
+<td align="center" width="25%"><b>Frontend</b><br/><sub>HTML · CSS · JavaScript · TypeScript</sub></td>
+<td align="center" width="25%"><b>Tooling</b><br/><sub>Python · Node.js · Git · GitHub Actions</sub></td>
+<td align="center" width="25%"><b>Self-hosting</b><br/><sub>Docker · Jellyfin · Stremio · AIOStreams</sub></td>
+<td align="center" width="25%"><b>Local AI</b><br/><sub>LM Studio · Model Context Protocol</sub></td>
+</tr>
+</table>
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## Selected projects
 
-<div align="center">
-
-| Project | Description | Stack | Links |
-|---|---|---|---|
-| 🧠 **SignalStack** | AI-powered knowledge map — think *Perplexity, wrapped* | AI · Web | [GitHub](https://github.com/G1NYU/SignalStack) |
-| 💎 **Neon Glass** | Personal portfolio & blog with neon-glass aesthetic | TypeScript · CSS · Node.js | [Live](https://dark-owls-hunt.vly.sh/) · [GitHub](https://github.com/G1NYU/neon-glass) |
-| 📚 **Mihon → AnymeX** | Browser-based manga/anime library migrator — no Python, no install. Parses Mihon, Mangayomi & CSV backups, enriches with AniList metadata, outputs a ready-to-restore `.anymex` file | JS · HTML · AniList API | [Live](https://g1nyu.github.io/mihon-to-anymex) · [GitHub](https://github.com/G1NYU/mihon-to-anymex) |anymex) |
-
-</div>
-
----
-
-## 💼 Experience
-
-<div align="center">
-
-| Role | Company | Highlights |
+| Project | What it does | Stack |
 |---|---|---|
-| 🎯 **Community & Content Manager** | Sai Wen Game Co | Anti-spam moderation, visual content design (character showcases), community engagement & retention |
-| 🎨 **Graphic Designer** | B2a Communication | Brand design, print & digital production |
-| 🖌️ **Graphic Designer** | GIPS Soissons | Visual identity & communication materials |
-
-</div>
-
----
-
-## 🎓 Education
-
-<div align="center">
-
-| Institution | Program |
-|---|---|
-| 🏫 asbl la Charlemagn'rie, Herstal | Administrative Agent Training *(in progress)* |
-| 🎓 Haute École de Liège | Bachelor's — Printing & Graphic Design |
-| 📰 St Remy College | Bachelor's — Communications |
-| 🌐 University of Michigan *(online)* | Journalism courses |
-| ✏️ Self-directed | Photography · Drawing · Graphic Design · Prompt Engineering |
-
-</div>
+| [`mihon-to-anymex`](https://github.com/G1NYU/mihon-to-anymex) | Converts Mihon/Komikku manga-library backups to AnymeX format with AniList metadata lookup | HTML · JavaScript · AniList API |
+| [`g1nyu-shelf`](https://github.com/G1NYU/g1nyu-shelf) | Personal media shelf for manga, manhwa, music, and books | Next.js · AniList API · Last.fm API |
+| [`SignalStack`](https://github.com/G1NYU/SignalStack) | Interactive Perplexity-history retrospective with a Spotify Wrapped-style interface | HTML · CSS · JavaScript |
+| [`tools-and-media-library`](https://github.com/G1NYU/tools-and-media-library) | Curated, anonymous directory of tools and media resources | Python · GitHub Pages |
+| [`wc2026-value-bracket`](https://github.com/G1NYU/wc2026-value-bracket) | World Cup simulator driven by Transfermarkt squad market values | HTML · JavaScript · Data modeling |
+| [`GINpuccin`](https://github.com/G1NYU/GINpuccin) | Catppuccin Mocha-inspired YASB Reborn desktop theme | CSS · Theming · Linux desktop |
 
 ---
 
-## 📊 GitHub Stats
+## Technical stack
 
 <div align="center">
 
-<img src="./assets/stats.svg" width="47%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=G1NYU&theme=midnight-purple&hide_border=true&background=0d1117&stroke=7c3aed&ring=a78bfa&fire=c4b5fd&currStreakLabel=a78bfa" width="47%" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,python,nodejs,git,github,docker,linux,vscode,figma&perline=7&theme=dark" alt="Technology icons" />
 
 <br/><br/>
 
-<img src="./assets/top-langs.svg" width="40%" />
+**Core:** HTML · CSS · JavaScript · TypeScript · Python · Git  
+**Web:** React · Next.js · REST APIs · GitHub Pages · responsive UI  
+**Media:** Docker · Jellyfin · Stremio · AIOStreams · self-hosted pipelines  
+**AI:** LM Studio · Model Context Protocol · custom automation scripts  
+**Design:** Figma · dark UI systems · vector art · pixel art
 
 </div>
 
 ---
 
-## 🌐 Connect with Me
+## Current interests
+
+- Modular self-hosted media and streaming pipelines
+- Local LLM workflows with LM Studio and MCP
+- Media-library migration and metadata tooling
+- High-contrast dark interfaces and clean typographic systems
+- Automation for technical and administrative workflows
+
+---
+
+## GitHub snapshot
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-G1NYU-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/G1NYU)
-[![Instagram](https://img.shields.io/badge/Instagram-icecoldwill-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/icecoldwill)
-[![YouTube](https://img.shields.io/badge/YouTube-GinyuTV-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ginyuTV)
-[![Discord](https://img.shields.io/badge/Discord-giinyu-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/giinyu)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20My%20Work-7c3aed?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1pGeNb5H6RfvTgdNrmSz9xALro7734tLr/view?usp=sharing)
-[![CV](https://img.shields.io/badge/CV-View%20Online-c9a46a?style=for-the-badge&logo=readthedocs&logoColor=white)](https://g1nyu.github.io/cv/)
+<img src="https://github-readme-stats.vercel.app/api?username=G1NYU&show_icons=true&hide_border=true&bg_color=1E1E2E&title_color=CBA6F7&icon_color=F5C2E7&text_color=CDD6F4" alt="GitHub statistics" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1NYU&layout=compact&hide_border=true&bg_color=1E1E2E&title_color=CBA6F7&text_color=CDD6F4&langs_count=8" alt="Top languages" height="165" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=G1NYU&hide_border=true&background=1E1E2E&stroke=CBA6F7&ring=F5C2E7&fire=F38BA8&currStreakLabel=CDD6F4&sideLabels=CDD6F4&dates=A6ADC8" alt="GitHub streak statistics" height="165" />
+
+</div>
+
+---
+
+## Connect
+
+<div align="center">
+
+<a href="https://github.com/G1NYU"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-G1NYU-181825?style=for-the-badge&logo=github&logoColor=CDD6F4" /></a>
+<a href="https://g1nyu.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-g1nyu.github.io-181825?style=for-the-badge&logo=vercel&logoColor=CDD6F4" /></a>
+<a href="https://www.youtube.com/@ginyuTV"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-GinyuTV-181825?style=for-the-badge&logo=youtube&logoColor=F38BA8" /></a>
+<a href="https://instagram.com/icecoldwill"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-icecoldwill-181825?style=for-the-badge&logo=instagram&logoColor=F5C2E7" /></a>
+<a href="https://discord.gg/giinyu"><img alt="Discord" src="https://img.shields.io/badge/Discord-giinyu-181825?style=for-the-badge&logo=discord&logoColor=89B4FA" /></a>
 
 </div>
 
 ---
 
 <div align="center">
-
-> *"Design is not just what it looks like and feels like. Design is how it works."* — Steve Jobs
-
+<sub><b>Catppuccin Mocha</b> · built for clarity, maintained for longevity.</sub>
 </div>
