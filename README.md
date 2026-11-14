@@ -1,138 +1,160 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="G1NYU — A design eye. An engineering mind. Media software, integrations and interface design." />
+<img src="assets/banner.svg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
 
-<sub><b>INDEPENDENT DEVELOPMENT &nbsp; / &nbsp; GRAPHIC DESIGN BACKGROUND &nbsp; / &nbsp; OPEN SOURCE</b></sub>
+<br/><br/>
 
-[Selected work](#selected-work) &nbsp;·&nbsp; [Capabilities](#capabilities) &nbsp;·&nbsp; [Project archive](#project-archive) &nbsp;·&nbsp; [Portfolio](https://g1nyu.github.io/)
+[**Portfolio**](https://g1nyu.github.io/) &nbsp;&nbsp;·&nbsp;&nbsp; [**Projects**](#selected-work) &nbsp;&nbsp;·&nbsp;&nbsp; [**Plugin catalog**](https://g1nyu.github.io/harbor-plugins/)
 
 </div>
 
 <br/>
 
-## Form follows function.
+## About me
 
-I'm **giinyu** — an independent builder with a background in graphic design, working at the intersection of **media software, API integrations, performance optimization and interface design**.
+I'm **giinyu**, an independent builder with a background in graphic design. I work across media software, API integrations, performance optimization and interface design.
 
-I extend the media ecosystem by connecting applications that should work together, building source plugins, improving desktop responsiveness, and designing interfaces that feel good to use.
-
-My process combines hands-on testing, iterative development, reproducible builds and AI-assisted engineering. Good design is not just how something looks. It's how it behaves.
+I like connecting applications that should work together, developing useful plugins, and making software feel as good as it looks. My process combines hands-on testing, iterative development, reproducible builds and AI-assisted engineering.
 
 <br/>
+
+<div align="center">
+
+## My toolkit
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css&amp;perline=6&amp;theme=dark" width="570" alt="TypeScript, JavaScript, React, Next.js, HTML and CSS" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=nodejs,python,git,github,githubactions,docker&amp;perline=6&amp;theme=dark" width="570" alt="Node.js, Python, Git, GitHub, GitHub Actions and Docker" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=figma,linux,vscode,tauri&amp;perline=4&amp;theme=dark" width="360" alt="Figma, Linux, VS Code and Tauri" />
+
+<br/><br/>
+
+**Desktop applications · APIs · Plugin development · Design systems · Performance · CI/CD**
+
+</div>
+
+<br/><br/>
 
 ## Selected work
 
-<sub>01 — 03 &nbsp; / &nbsp; ACTIVE PROJECTS &amp; EXPERIMENTS</sub>
-
 <br/>
 
-<a href="https://github.com/G1NYU/RE-Harbor"><img src="assets/work-systems.svg" width="100%" alt="01 — RE-Harbor, application engineering and media integration" /></a>
+<a href="https://github.com/G1NYU/RE-Harbor"><img src="https://raw.githubusercontent.com/G1NYU/RE-Harbor/beta-branch/docs/media/harbor-mark.svg" alt="Harbor logo" width="105" align="left" /></a>
+
+### RE-Harbor
+
+**Desktop development & media integrations**
+
+[Repository](https://github.com/G1NYU/RE-Harbor) &nbsp;·&nbsp; [Experiments](https://github.com/G1NYU/RE-Harbor/pulls)
+
+<br clear="both"/>
 
 An experimental fork of Harbor, working across the React/TypeScript frontend, Tauri desktop environment and media integrations.
 
-**[Refract integration ↗](https://github.com/G1NYU/RE-Harbor/pull/4)** &nbsp; <sub>EXPERIMENTAL · LIVE MANUAL LOGGING VERIFIED</sub>
+**[Refract integration](https://github.com/G1NYU/RE-Harbor/pull/4)** — API-key authentication, verified external-ID resolution, persistent retry queues, duplicate protection and inbound watched history. Manual watch logging is verified live; [automatic diary logging](https://github.com/G1NYU/RE-Harbor/tree/feature/snappy-startup-msi) with configurable viewing thresholds is in testing.
 
-API-key authentication, verified external-ID resolution, persistent watch-event queues, duplicate protection and inbound watched history. [Automatic diary logging](https://github.com/G1NYU/RE-Harbor/tree/feature/snappy-startup-msi) adds configurable viewing thresholds using existing playback events; live playback validation is still in progress.
+**[Snappy](https://github.com/G1NYU/RE-Harbor/pull/5)** — performance experiments with deferred initialization, lazy poster mounting, scroll/render profiling, regression tests and isolated Windows MSI builds.
 
-**[Snappy ↗](https://github.com/G1NYU/RE-Harbor/pull/5)** &nbsp; <sub>PERFORMANCE EXPERIMENT</sub>
-
-Deferred initialization, lazy poster mounting, scroll/render diagnostics, regression tests and isolated Windows MSI builds.
-
-Long-term: a unified Refract media tracker, with watchlist synchronization next and games, manga and books dependent on future API capabilities.
-
-<sub>TypeScript &nbsp; / &nbsp; React &nbsp; / &nbsp; Tauri &nbsp; / &nbsp; REST &nbsp; / &nbsp; GitHub Actions</sub>
+The long-term Refract goal is a unified media tracker, with watchlist syncing next and games, books and manga dependent on future API capabilities.
 
 <br/>
 
-<a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/work-plugins.svg" width="100%" alt="02 — Harbor Plugins, source adapters, validation and distribution" /></a>
+<a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/plugins-icon.svg" width="105" align="left" alt="Harbor Plugins icon" /></a>
+
+### Harbor Plugins
+
+**Source development & distribution**
+
+[Repository](https://github.com/G1NYU/harbor-plugins) &nbsp;·&nbsp; [Live catalog](https://g1nyu.github.io/harbor-plugins/)
+
+<br clear="both"/>
 
 An actively maintained fork with multilingual manga and Western comics source adapters, alongside the existing plugin infrastructure.
 
-- TypeScript provider implementations in a constrained worker runtime.
-- HTML/JSON parsing, pagination, metadata normalization, cover resolution and reader image extraction.
-- Real-client testing of search, catalog loading and deep chapter archives.
-- Separate testing and main catalogs, esbuild bundling, manifest validation and GitHub Pages deployment.
-
-**[Source repository ↗](https://github.com/G1NYU/harbor-plugins)** &nbsp;·&nbsp; **[Live plugin catalog ↗](https://g1nyu.github.io/harbor-plugins/)**
-
-<sub>TypeScript &nbsp; / &nbsp; esbuild &nbsp; / &nbsp; Metadata &nbsp; / &nbsp; CI/CD</sub>
+- TypeScript providers in a constrained worker runtime.
+- HTML/JSON parsing, pagination, metadata normalization and image extraction.
+- Real-client testing of search, catalogs and deep chapter archives.
+- Separate main and testing catalogs, esbuild bundling, manifest validation and GitHub Pages deployment.
 
 <br/>
 
-<a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/work-void.svg" width="100%" alt="03 — VOID, cinematic interfaces and measured performance. Stylized interface illustration." /></a>
+<a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/void-icon.svg" width="105" align="left" alt="VOID theme icon" /></a>
 
-A custom Harbor theme project exploring cinematic media interfaces, restrained Catppuccin Mocha palettes, bespoke navigation icons, typography and multilingual layouts.
+### VOID
 
-Rich-effects experiments evolved into a lightweight static CSS approach, guided by real scrolling tests and frame-timing diagnostics. [VOID Native](https://github.com/G1NYU/RE-Harbor/pull/6) explores component-level theming as an alternative to runtime overrides; it remains a separate prototype.
+**Interface design & performance**
 
-**A beautiful interface is only worth keeping if it remains responsive.**
+[Native experiment](https://github.com/G1NYU/RE-Harbor/pull/6)
 
-<sub>Art direction &nbsp; / &nbsp; CSS &nbsp; / &nbsp; SVG &nbsp; / &nbsp; Design systems &nbsp; / &nbsp; Profiling</sub>
+<br clear="both"/>
 
-<br/>
+A custom Harbor theme exploring cinematic interfaces, deep Catppuccin Mocha palettes, bespoke navigation icons, refined typography and multilingual layouts.
 
-## Capabilities
+Rich-effects experiments evolved into a lighter, static CSS approach guided by real scrolling tests and frame-timing diagnostics. VOID Native is a separate component-level theming prototype.
 
-<sub>THE TOOLKIT &nbsp; / &nbsp; DESIGN × DEVELOPMENT</sub>
+**Beautiful software should feel beautiful to use.**
 
-<table>
-<tr>
-<td width="50%" valign="top"><sub>01 / BUILD</sub><br/><h3>Application development</h3>TypeScript · JavaScript · React · Next.js · HTML · CSS · Tauri/WebView2<br/><br/>Desktop UI, web interfaces, state-driven components and application integration.</td>
-<td width="50%" valign="top"><sub>02 / CONNECT</sub><br/><h3>API &amp; data integration</h3>REST · JSON · authentication · metadata APIs · synchronization<br/><br/>Identity matching, cursor pagination, idempotency, retry queues and data migration.</td>
-</tr>
-<tr>
-<td width="50%" valign="top"><sub>03 / EXTEND</sub><br/><h3>Extensions &amp; automation</h3>Node.js · Python · esbuild · Git · GitHub Actions<br/><br/>Source adapters, structured data extraction, testing, CI/CD and packaging.</td>
-<td width="50%" valign="top"><sub>04 / REFINE</sub><br/><h3>Performance &amp; design</h3>DevTools · frame timing · lazy loading · SVG · Figma<br/><br/>Profiling, rendering efficiency, accessible dark UI and cohesive design systems.</td>
-</tr>
-</table>
+<br/><br/>
 
-I also work with self-hosted media workflows (Docker, Jellyfin, Stremio and AIOStreams), local AI tooling (LM Studio and MCP), and automation scripts. Tauri/Rust-based applications are an active area of exploration.
+## What I do
 
-<br/>
+**Application development** — React, TypeScript, JavaScript, Next.js, HTML/CSS, Tauri/WebView2; desktop and web interfaces, state-driven components and application integration.
 
-## Project archive
+**API & data integration** — REST, JSON, authentication, metadata matching, cursor pagination, synchronization, idempotency, retry queues and library migration.
 
-<sub>OTHER SELECTED WORK &nbsp; / &nbsp; TOOLS, WEB &amp; DESIGN</sub>
+**Extensions & automation** — Node.js, Python, esbuild, Git and GitHub Actions; source adapters, data extraction, testing, CI/CD and packaging.
+
+**Performance & visual design** — DevTools, frame timing, lazy loading, SVG and Figma; profiling, rendering efficiency, accessible dark interfaces and cohesive design systems.
+
+I also work with Docker, Jellyfin, Stremio and AIOStreams for self-hosted media, LM Studio and MCP for local AI workflows, and scripting for repetitive tasks. Tauri/Rust-based applications remain an active area of exploration.
+
+<br/><br/>
+
+## More projects
 
 | Project | Focus |
 | :--- | :--- |
-| [mihon-to-anymex ↗](https://github.com/G1NYU/mihon-to-anymex) | Manga-library migration and AniList metadata matching |
-| [g1nyu-shelf ↗](https://github.com/G1NYU/g1nyu-shelf) | Personal media catalog using Next.js, AniList and Last.fm |
-| [GINpuccin ↗](https://github.com/G1NYU/GINpuccin) | Catppuccin-inspired YASB Reborn desktop customization |
-| [SignalStack ↗](https://github.com/G1NYU/SignalStack) | Interactive history visualization, inspired by Spotify Wrapped |
-| [tools-and-media-library ↗](https://github.com/G1NYU/tools-and-media-library) | Curated resource directory and automated publishing |
-| [wc2026-value-bracket ↗](https://github.com/G1NYU/wc2026-value-bracket) | Squad market-value-driven tournament simulation |
+| [mihon-to-anymex](https://github.com/G1NYU/mihon-to-anymex) | Manga-library migration and AniList metadata matching |
+| [g1nyu-shelf](https://github.com/G1NYU/g1nyu-shelf) | Personal media catalog using Next.js, AniList and Last.fm |
+| [GINpuccin](https://github.com/G1NYU/GINpuccin) | Catppuccin-inspired YASB Reborn desktop customization |
+| [SignalStack](https://github.com/G1NYU/SignalStack) | Interactive history visualization, inspired by Spotify Wrapped |
+| [tools-and-media-library](https://github.com/G1NYU/tools-and-media-library) | Curated resource directory and automated publishing |
+| [wc2026-value-bracket](https://github.com/G1NYU/wc2026-value-bracket) | Squad market-value-driven tournament simulation |
 
-<br/>
-
-## Activity
+<br/><br/>
 
 <div align="center">
+
+## GitHub activity
+
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=G1NYU&amp;show_icons=true&amp;hide_border=true&amp;bg_color=181825&amp;title_color=89B4FA&amp;icon_color=89B4FA&amp;text_color=CDD6F4" alt="GitHub statistics" height="155" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1NYU&amp;layout=compact&amp;hide_border=true&amp;bg_color=181825&amp;title_color=89B4FA&amp;text_color=CDD6F4&amp;langs_count=8" alt="Repository language statistics" height="155" />
 
-</div>
+<br/><br/>
+
+## Find me
 
 <br/>
 
-## Connect
+<a href="https://github.com/G1NYU"><img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="60" alt="GitHub" /></a>&nbsp;&nbsp;
+<a href="https://discord.gg/giinyu"><img src="https://skillicons.dev/icons?i=discord&amp;theme=dark" width="60" alt="Discord" /></a>&nbsp;&nbsp;
+<a href="https://instagram.com/icecoldwill"><img src="https://skillicons.dev/icons?i=instagram&amp;theme=dark" width="60" alt="Instagram" /></a>
 
-<div align="center">
+<br/><br/>
 
-<a href="https://github.com/G1NYU">GitHub ↗</a> &nbsp;·&nbsp;
-<a href="https://g1nyu.github.io/">Portfolio ↗</a> &nbsp;·&nbsp;
-<a href="https://www.youtube.com/@ginyuTV">YouTube ↗</a> &nbsp;·&nbsp;
-<a href="https://instagram.com/icecoldwill">Instagram ↗</a> &nbsp;·&nbsp;
-<a href="https://discord.gg/giinyu">Discord ↗</a>
+[Portfolio](https://g1nyu.github.io/) &nbsp;·&nbsp; [YouTube](https://www.youtube.com/@ginyuTV) &nbsp;·&nbsp; [Discord](https://discord.gg/giinyu)
 
-</div>
+<br/><br/>
 
-<br/>
-
-<div align="center">
-
-<sub>G1NYU &nbsp; / &nbsp; FORM. FUNCTION. FLOW.</sub><br/>
-<sub>Designed and built with intent.</sub>
+**giinyu.**
 
 </div>
