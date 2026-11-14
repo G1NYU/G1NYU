@@ -1,47 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="G1NYU profile banner">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#11111B"/>
-      <stop offset="0.55" stop-color="#181825"/>
-      <stop offset="1" stop-color="#1E1E2E"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#CBA6F7"/>
-      <stop offset="0.5" stop-color="#F5C2E7"/>
-      <stop offset="1" stop-color="#89B4FA"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#CBA6F7" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#89B4FA" stop-opacity="0.12"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#313244" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)" opacity="0.45"/>
-  <rect x="0" y="0" width="1200" height="300" rx="24" fill="url(#glow)"/>
-  <circle cx="1040" cy="45" r="150" fill="#CBA6F7" opacity="0.08"/>
-  <circle cx="150" cy="270" r="170" fill="#89B4FA" opacity="0.07"/>
-  <rect x="28" y="28" width="1144" height="244" rx="18" fill="none" stroke="#313244" stroke-width="2"/>
-  <rect x="28" y="28" width="1144" height="6" rx="3" fill="url(#accent)"/>
-  <text x="80" y="145" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="82" font-weight="700" fill="#CDD6F4" letter-spacing="4">G1NYU</text>
-  <rect x="82" y="168" width="430" height="4" rx="2" fill="url(#accent)"/>
-  <text x="82" y="218" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="26" fill="#A6ADC8" letter-spacing="1">Full-stack developer · Self-hosting · Automation</text>
-  <g font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="17">
-    <rect x="82" y="242" width="118" height="32" rx="16" fill="#313244"/>
-    <text x="100" y="263" fill="#CBA6F7">web</text>
-    <rect x="212" y="242" width="118" height="32" rx="16" fill="#313244"/>
-    <text x="230" y="263" fill="#F5C2E7">media</text>
-    <rect x="342" y="242" width="150" height="32" rx="16" fill="#313244"/>
-    <text x="360" y="263" fill="#89B4FA">automation</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">G1NYU</title>
+  <desc id="desc">Media systems, integrations and interface design. Independent development.</desc>
+  <rect width="1200" height="300" rx="18" fill="#11111b"/>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#313244" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="52" y="38" width="7" height="22" rx="2" fill="#89b4fa"/>
+    <text x="73" y="55" font-size="15" font-weight="700" letter-spacing="3" fill="#a6adc8">INDEPENDENT DEVELOPMENT</text>
+    <text x="49" y="153" font-size="103" font-weight="900" letter-spacing="-5" fill="#cdd6f4">G1NYU</text>
+    <text x="55" y="198" font-size="25" font-weight="600" fill="#bac2de">Media systems. Integrations. Interface design.</text>
+    <path d="M55 221H720" stroke="#313244" stroke-width="2"/>
+    <text x="55" y="255" font-size="14" letter-spacing="2.2" font-weight="700" fill="#89b4fa">DESKTOP</text>
+    <text x="170" y="255" font-size="14" letter-spacing="2.2" font-weight="700" fill="#a6adc8">APIs</text>
+    <text x="252" y="255" font-size="14" letter-spacing="2.2" font-weight="700" fill="#a6adc8">EXTENSIONS</text>
+    <text x="410" y="255" font-size="14" letter-spacing="2.2" font-weight="700" fill="#a6adc8">PERFORMANCE</text>
   </g>
-  <g transform="translate(930 105)">
-    <rect x="0" y="0" width="190" height="90" rx="16" fill="#181825" stroke="#45475A"/>
-    <circle cx="42" cy="34" r="9" fill="#F38BA8"/>
-    <circle cx="70" cy="34" r="9" fill="#F9E2AF"/>
-    <circle cx="98" cy="34" r="9" fill="#A6E3A1"/>
-    <rect x="22" y="58" width="146" height="7" rx="3.5" fill="#CBA6F7"/>
-    <rect x="22" y="72" width="104" height="7" rx="3.5" fill="#89B4FA"/>
+  <g transform="translate(860 54)" stroke-linejoin="round">
+    <path d="M145 0 278 72 145 145 12 72Z" fill="#181825" stroke="#45475a" stroke-width="2"/>
+    <path d="M12 98 145 171 278 98M12 124 145 197 278 124" fill="none" stroke="#313244" stroke-width="2"/>
+    <path d="M145 38 209 72 145 107 81 72Z" fill="#313244" stroke="#89b4fa" stroke-width="2"/>
+    <path d="M145 38V107M81 72H209" stroke="#585b70" stroke-width="1" opacity=".55"/>
+    <circle cx="145" cy="72" r="5" fill="#89b4fa"/>
+    <circle cx="12" cy="72" r="4" fill="#7f849c"/>
+    <circle cx="278" cy="72" r="4" fill="#7f849c"/>
+    <circle cx="145" cy="145" r="4" fill="#7f849c"/>
   </g>
 </svg>
