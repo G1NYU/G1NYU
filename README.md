@@ -16,6 +16,8 @@ I'm **giinyu**, an independent builder with a background in graphic design. I wo
 
 I like connecting applications that should work together, developing useful plugins, and making software feel as good as it looks. My process combines hands-on testing, iterative development, reproducible builds and AI-assisted engineering.
 
+**Graphic design is my foundation, not a side interest.** I bring **10+ years of experience** in brand identity, print production, commercial product photography and visual communication, including professional work on packaging, catalogs, promotional graphics and community content. That background directly informs the typography, information hierarchy, visual assets and UX decisions in my software. [Design experience & CV](https://github.com/G1NYU/G1NYU/tree/main/cv).
+
 <br/>
 
 <div align="center">
@@ -71,6 +73,23 @@ The long-term Refract goal is a unified media tracker, with watchlist syncing ne
 
 <br/>
 
+### mihon-to-anymex
+
+**Browser-based manga & anime library migration**
+
+[Repository](https://github.com/G1NYU/mihon-to-anymex) &nbsp;·&nbsp; [Live converter](https://g1nyu.github.io/mihon-to-anymex/)
+
+Built a client-side migration application for moving reading libraries between Mihon, Mangayomi and AnymeX, using a **Parse → Fetch → Build** pipeline rather than manual list reconstruction.
+
+- **Import and parsing** — Accepts Mihon backup JSON exported via `backup.mihon.tools`, direct Mangayomi `.backup` files, headerless `Title,Status,ChaptersRead,ListName` CSV and batch title entry. Optional fields default to `PLANNING`, `0` and `Migrated`.
+- **Metadata and export** — Looks up titles through the AniList GraphQL API, enriches metadata and generates restorable `.anymex` backups, with optional AnymeX templates and custom list names. File transformation runs in the browser; AniList queries require network access.
+- **Reverse conversion** — Converts AnymeX manga entries into Mihon-compatible JSON, then uses `backup.mihon.tools` for the final `.mihon` export. The documented reverse path retains manga progress and status, skips anime and does not carry scores or notes; a matching Mihon source extension is still required.
+- **Product features and maintenance** — English/Japanese interface, resumable lookups, batch import, compressed list-sharing URLs and a shareable cover-grid viewer. Earlier Python tooling informed the project but is not a dependency of the deployed web app.
+
+**Compatibility boundaries** — Direct raw `.mihon` or Tachiyomi parsing is not verified; Komikku backups were explored without confirmed cross-version support. Mixed Mangayomi libraries exposed anime/manga classification concerns, with media-type counters and round-trip fidelity requiring further verification.
+
+<br/>
+
 <a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/plugins-icon.svg" width="105" align="left" alt="Harbor Plugins icon" /></a>
 
 ### Harbor Plugins
@@ -114,9 +133,26 @@ Rich-effects experiments evolved into a lighter, static CSS approach guided by r
 
 **Beautiful software should feel beautiful to use.**
 
+<br/>
+
+### Graphic design & visual identity
+
+**Brand systems, print production, product photography & creative direction**
+
+[CV & design experience](https://github.com/G1NYU/G1NYU/tree/main/cv) &nbsp;·&nbsp; [Portfolio](https://g1nyu.github.io/)
+
+My design practice spans **more than a decade**, from identity development and print production to digital interfaces and community-facing artwork.
+
+- **Identity and branding** — Logos, color and typography systems, brand guidelines, packaging and stationery. Selected work documented in my CV includes **E2A Communication**, **NEKO Coffee Shop & Lounge** and **Club Boba**.
+- **Print and photography** — Business cards, brochures, flyers, letterheads, commercial product photography and e-commerce catalogs; hands-on prepress, CMYK preparation, and offset/digital production. Professional work includes **B2A Communication** and **Exotic City**.
+- **Digital creative work** — Promotional showcases, community content and event posters, including community/content work at **Sai Wen Game Co**. This background carries through to VOID's iconography, interface composition, branding and motion experiments.
+- **Tools** — Adobe Photoshop, Illustrator, InDesign, Lightroom and Premiere Pro, alongside Figma, SVG, HTML/CSS and frontend prototyping.
+
 <br/><br/>
 
 ## What I do
+
+**Graphic design & art direction** — Brand identity, logo and typography systems, packaging, layout, prepress/CMYK, print production, commercial photography, visual storytelling and digital content.
 
 **Application development** — React, TypeScript, JavaScript, Next.js, HTML/CSS, Tauri/WebView2; desktop and web interfaces, state-driven components and application integration.
 
@@ -131,23 +167,22 @@ I also work with Docker, Jellyfin, Stremio and AIOStreams for self-hosted media,
 <br/><br/>
 
 
-## Streaming configurations & debugging
+## Streaming integrations, configuration & diagnostics
 
-AIOStreams and Stremio work includes configuration design, stream selection, add-on interoperability, and diagnostic comparison of JSON exports across distinct use cases. These are personal setups and experiments, **not claims of maintaining AIOStreams or Stremio themselves**.
+Technical configuration and troubleshooting work across **AIOStreams and Stremio**: provider orchestration, stream filtering, metadata matching, language rules and reproducible JSON exports. These are personal configurations and experiments, **not claims of maintaining the upstream applications**.
 
-| Configuration | Technical scope |
+| Technical area | Work and constraints |
 | :--- | :--- |
-| `Ultimate` | Anime, K-drama, movies and TV; French/English coverage, Japanese/Korean original-audio priorities, cached results, resolution order, add-on tiers and preserved regex/stream expressions. |
-| `ice cream` | Meteor result inclusion, original Japanese audio where applicable, and French/English subtitle matching. |
-| French-first bilingual | French with English fallback, anime/K-drama rules, Cometmid/Cometkuu passthrough, Ned's French-language formatter and StreamFusion duplicator exclusions; investigated slower responses. |
-| French-audio-only / `finalFRENCH.json` | French/Multi-only audio selection, 4K/1080p priority and frenchio pinning; compared TorBox and AllDebrid routing without conflating service configuration. |
-| General TV | Add-on timeout budgets, dynamic fetching, remote-friendly result navigation, cached selection, next-episode precaching and title/year/episode matching. |
-| USA profile | One-choice-per-resolution deduplication, Dolby Vision/HDR preferences, and reuse of anime/K-drama rules; sanitized export requested. |
-| `aiostreams-config-tuned` | Cached-only behavior for this variant, French/Multi 4K and VOSTFR matching, Japanese/Korean audio preferences and dynamic-fetch rules; end-to-end playback coverage remained unverified. |
+| **Result selection and ranking** | Tuned 4K/1080p preferences, one-choice-per-resolution deduplication, stream-size limits, sorting and tiered add-on priorities. Handled HDR/Dolby Vision distinctions and separate cached-only versus uncached-fallback rules depending on the configuration. |
+| **Audio and subtitle matching** | Built French-audio-only and French-first bilingual approaches, with French/Multi detection, VOSTFR and French/English subtitles, Japanese original audio for anime, and Korean audio for K-dramas. Separated audio labels from subtitle metadata rather than treating language as one field. |
+| **Provider routing and passthrough** | Worked with Meteor, frenchio, Cometmid/Cometkuu passthrough, Ned's French-language formatter and StreamFusion duplicator exclusions; compared TorBox and AllDebrid routing while keeping each service's configuration distinct. |
+| **Metadata and stream normalization** | Preserved custom regex/stream expressions while tuning title, year and episode matching, response formatting, early exits and result limits. Audited stale add-on IDs and cases where passthrough bypassed filters. |
+| **Reliability and performance** | Investigated slow responses, dynamic fetching, add-on timeout budgets, HTTP 429 rate limits, IP-bound playback tokens, wrapped instances, proxy/self-hosting constraints, and next-episode precaching. These investigations did not establish a universal fix. |
+| **Validation and UX** | Compared healthy and sparse JSON exports; diagnosed schema mismatches (`streams` vs `totalStreams`) and unsupported `fuzzy` matching; refined remote-friendly result selection, consistent resolution choices, and credential-free configuration exports. Prowlarr and Jackett were evaluated, not confirmed as deployed. |
 
-**Debugging practice** — Compare known-good and underperforming exports; inspect passthrough filters, stale add-on identifiers, sorting/deduplication, premature termination and overly restrictive requirements. Investigated HTTP 429 responses, IP-bound playback tokens, wrapped instances, proxy/self-hosting constraints and stream-size limits without claiming a universal fix. Also encountered schema mismatches (`streams` versus `totalStreams`) and unsupported `fuzzy` matching; Prowlarr/Jackett were evaluated as possible source approaches, not confirmed deployments.
+**Configuration history** — These techniques were applied to distinct variants with different tradeoffs, including a general TV profile, a USA-focused profile, French-first and French-audio-only variants, plus profiles called `Ultimate`, `ice cream`, `finalFRENCH.json` and `aiostreams-config-tuned`. Cached-only behavior, subtitle fallbacks and provider exclusions were **not** intended to be identical across all profiles; final playback coverage for the tuned variant remains unverified.
 
-**Documentation** — Drafted a French beginner guide to Stremio, add-ons and debrid workflows, with guidance on sharing configurations without credentials.
+**Documentation** — Drafted a French beginner guide to Stremio, add-ons and debrid, including safe sharing of sanitized configurations.
 
 ## More projects
 
@@ -166,7 +201,7 @@ AIOStreams and Stremio work includes configuration design, stream selection, add
 
 ## Libraries, catalogs & other experiments
 
-**Manga-library interoperability** — The [mihon-to-anymex](https://github.com/G1NYU/mihon-to-anymex) workflow explores Python-based conversion, AniList lookups, and direct Mihon/Tachiyomi `.mihon` or `.backup` inputs alongside CSV and an AnymeX template. Komikku backups were used in migration tests; Mangayomi support and anime-versus-manga import classification were investigated, with separate totals requested after anime entries appeared as manga. Not every proposed format or correction is verified as shipped.
+**Manga-library interoperability** — The featured [mihon-to-anymex](https://github.com/G1NYU/mihon-to-anymex) converter grew from Python import experiments into a browser-based AniList-assisted migration workflow. Its documented v2 input paths are Mihon JSON via `backup.mihon.tools`, direct Mangayomi `.backup`, and CSV; direct raw Mihon/Tachiyomi backup parsing was explored but **not verified as shipped**. Komikku backup compatibility was tested without confirmed version coverage, while a Mangayomi anime-as-manga classification report prompted requests for separate media counts. Not every proposed fix or input format is verified as released.
 
 **Readers and library tools** — Work with Komikku was personal reading and backup testing, not a claim of contributing to Komikku's code. Maintained the [hondana](https://github.com/G1NYU/hondana) Mihon fork and experimented with custom shelves. Also worked with a generated Cubari manga-source repository, and configured Jellyfin as a personal media library; specific server deployment details are not public here.
 
