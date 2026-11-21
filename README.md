@@ -188,7 +188,6 @@ Technical configuration and troubleshooting work across **AIOStreams and Stremio
 
 | Project | Focus |
 | :--- | :--- |
-| [mihon-to-anymex](https://github.com/G1NYU/mihon-to-anymex) | Manga-library migration and AniList metadata matching |
 | [hondana (ほんだな)](https://github.com/G1NYU/hondana) | Personal Mihon fork; explored shelf-based reading-library organization (implementation not independently verified) |
 | [g1nyu-shelf](https://github.com/G1NYU/g1nyu-shelf) | Personal media catalog using Next.js, AniList and Last.fm |
 | [GINpuccin](https://github.com/G1NYU/GINpuccin) | Catppuccin-inspired YASB Reborn desktop customization |
