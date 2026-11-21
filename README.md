@@ -64,6 +64,11 @@ An experimental fork of Harbor, working across the React/TypeScript frontend, Ta
 
 The long-term Refract goal is a unified media tracker, with watchlist syncing next and games, books and manga dependent on future API capabilities.
 
+**November 2026 milestone** — The Refract contribution was subsequently merged into Harbor as **PR #103** (merge commit `d3847d3`). The [VOID + Refract source branch](https://github.com/G1NYU/RE-Harbor/tree/feature/void-refract-2026-11-installer) includes later playback diary logging, watchlist add/remove work, and the custom music interface. The earlier milestones above document the integration's development stages; full two-way Refract-to-Harbor synchronization remains a separate goal.
+
+**Builds and source continuity** — Published an [unsigned Windows x64 preview installer](https://github.com/G1NYU/RE-Harbor/releases/tag/reharbor-void-refract-2026-11-20) through a checksum-verified GitHub Actions packaging workflow. CI verified silent installation, bundled files, shortcuts and uninstallation; interactive Windows playback still requires device-level testing. Separately [archived Harbor 1.0.4 source through 21 November 2026](https://github.com/G1NYU/RE-Harbor/tree/archive/harbor-official-2026-11-21) for future upstream integration without overwriting the custom build.
+
+
 <br/>
 
 <a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/plugins-icon.svg" width="105" align="left" alt="Harbor Plugins icon" /></a>
@@ -83,6 +88,11 @@ An actively maintained fork with multilingual manga and Western comics source ad
 - Real-client testing of search, catalogs and deep chapter archives.
 - Separate main and testing catalogs, esbuild bundling, manifest validation and GitHub Pages deployment.
 
+**Source reliability and catalog QA** — Investigated Kagane/KakaManga metadata, AllManga chapter-image failures, and an unusable Mangakakalot adapter. Weloma, WeebCentral and MangaFire were among the sources reported working in earlier tests. Source behavior can change; those observations describe historical testing rather than permanent compatibility guarantees. Catalog publishing, experimental source validation and user-facing distribution are treated as distinct workflows.
+
+**Ebook integrations** — Published and exercised a Harbor ebook catalog, including entries from the *Inheritance Cycle*. Explored a possible **GinyuBooks** cleanup/alpha with Royal Road, Standard Ebooks and download-only Library Genesis support; a separate alpha release was not confirmed.
+
+
 <br/>
 
 <a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/void-icon.svg" width="105" align="left" alt="VOID theme icon" /></a>
@@ -98,6 +108,9 @@ An actively maintained fork with multilingual manga and Western comics source ad
 A custom Harbor theme exploring cinematic interfaces, deep Catppuccin Mocha palettes, bespoke navigation icons, refined typography and multilingual layouts.
 
 Rich-effects experiments evolved into a lighter, static CSS approach guided by real scrolling tests and frame-timing diagnostics. VOID Native is a separate component-level theming prototype.
+
+**Additional client work** — Prototyped centered branding, personalized greeting, larger streaming-service cards, flexible sidebar navigation, poster numbering and a full-page stream selector. Music and library explorations included expanded player views, playback controls, visualizer diagnostics, and CD/cassette-inspired artwork and motion. These span prototypes, tested revisions and design references; individual animations are not all verified as shipped.
+
 
 **Beautiful software should feel beautiful to use.**
 
@@ -117,11 +130,31 @@ I also work with Docker, Jellyfin, Stremio and AIOStreams for self-hosted media,
 
 <br/><br/>
 
+
+## Streaming configurations & debugging
+
+AIOStreams and Stremio work includes configuration design, stream selection, add-on interoperability, and diagnostic comparison of JSON exports across distinct use cases. These are personal setups and experiments, **not claims of maintaining AIOStreams or Stremio themselves**.
+
+| Configuration | Technical scope |
+| :--- | :--- |
+| `Ultimate` | Anime, K-drama, movies and TV; French/English coverage, Japanese/Korean original-audio priorities, cached results, resolution order, add-on tiers and preserved regex/stream expressions. |
+| `ice cream` | Meteor result inclusion, original Japanese audio where applicable, and French/English subtitle matching. |
+| French-first bilingual | French with English fallback, anime/K-drama rules, Cometmid/Cometkuu passthrough, Ned's French-language formatter and StreamFusion duplicator exclusions; investigated slower responses. |
+| French-audio-only / `finalFRENCH.json` | French/Multi-only audio selection, 4K/1080p priority and frenchio pinning; compared TorBox and AllDebrid routing without conflating service configuration. |
+| General TV | Add-on timeout budgets, dynamic fetching, remote-friendly result navigation, cached selection, next-episode precaching and title/year/episode matching. |
+| USA profile | One-choice-per-resolution deduplication, Dolby Vision/HDR preferences, and reuse of anime/K-drama rules; sanitized export requested. |
+| `aiostreams-config-tuned` | Cached-only behavior for this variant, French/Multi 4K and VOSTFR matching, Japanese/Korean audio preferences and dynamic-fetch rules; end-to-end playback coverage remained unverified. |
+
+**Debugging practice** — Compare known-good and underperforming exports; inspect passthrough filters, stale add-on identifiers, sorting/deduplication, premature termination and overly restrictive requirements. Investigated HTTP 429 responses, IP-bound playback tokens, wrapped instances, proxy/self-hosting constraints and stream-size limits without claiming a universal fix. Also encountered schema mismatches (`streams` versus `totalStreams`) and unsupported `fuzzy` matching; Prowlarr/Jackett were evaluated as possible source approaches, not confirmed deployments.
+
+**Documentation** — Drafted a French beginner guide to Stremio, add-ons and debrid workflows, with guidance on sharing configurations without credentials.
+
 ## More projects
 
 | Project | Focus |
 | :--- | :--- |
 | [mihon-to-anymex](https://github.com/G1NYU/mihon-to-anymex) | Manga-library migration and AniList metadata matching |
+| [hondana (ほんだな)](https://github.com/G1NYU/hondana) | Personal Mihon fork; explored shelf-based reading-library organization (implementation not independently verified) |
 | [g1nyu-shelf](https://github.com/G1NYU/g1nyu-shelf) | Personal media catalog using Next.js, AniList and Last.fm |
 | [GINpuccin](https://github.com/G1NYU/GINpuccin) | Catppuccin-inspired YASB Reborn desktop customization |
 | [SignalStack](https://github.com/G1NYU/SignalStack) | Interactive history visualization, inspired by Spotify Wrapped |
@@ -129,6 +162,19 @@ I also work with Docker, Jellyfin, Stremio and AIOStreams for self-hosted media,
 | [wc2026-value-bracket](https://github.com/G1NYU/wc2026-value-bracket) | Squad market-value-driven tournament simulation |
 
 <br/><br/>
+
+
+## Libraries, catalogs & other experiments
+
+**Manga-library interoperability** — The [mihon-to-anymex](https://github.com/G1NYU/mihon-to-anymex) workflow explores Python-based conversion, AniList lookups, and direct Mihon/Tachiyomi `.mihon` or `.backup` inputs alongside CSV and an AnymeX template. Komikku backups were used in migration tests; Mangayomi support and anime-versus-manga import classification were investigated, with separate totals requested after anime entries appeared as manga. Not every proposed format or correction is verified as shipped.
+
+**Readers and library tools** — Work with Komikku was personal reading and backup testing, not a claim of contributing to Komikku's code. Maintained the [hondana](https://github.com/G1NYU/hondana) Mihon fork and experimented with custom shelves. Also worked with a generated Cubari manga-source repository, and configured Jellyfin as a personal media library; specific server deployment details are not public here.
+
+**Harbor client QA** — Tested v1.0.1-beta manga and ebook loading, including intermittent BatCave and Royal Road behavior, verification prompts, absent covers and failed series navigation. Mihon backup import/export was requested as a priority, not established as a shipped Harbor feature.
+
+**Community tools and prototypes** — The [tools-and-media-library](https://github.com/G1NYU/tools-and-media-library) / Sentai toolbox concept is an anonymous, FMHY-inspired directory of shared community resources, with concise listings, GitHub star counts and optional curated picks. Earlier TVFlix collection-builder ideas informed explorations around Nuvio accounts and collections; a standalone TVFlix repository was not verified. Other work includes personal web presence and a portfolio/CV, a blog repository with unverified contents, and private TypeScript/Vly experiments without a public feature specification.
+
+**Additional areas** — PC and audio troubleshooting, local AI/agent experiments, Office/Excel automation, content management and graphic/web design. These describe areas of practice rather than individually verified released products.
 
 <div align="center">
 
