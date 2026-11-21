@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-hero.svg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
+<img src="assets/banner.svg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
 
 <br/><br/>
 
@@ -26,13 +26,27 @@ I like connecting applications that should work together, developing useful plug
 
 <br/>
 
-<img src="assets/toolkit-frontend.svg" width="100%" alt="Frontend and app: TypeScript, JavaScript, React, Next.js, HTML and CSS, Tauri, GraphQL" />
+**Frontend & desktop**
 
-<img src="assets/toolkit-systems.svg" width="100%" alt="Systems and automation: Node.js, Python, Git, GitHub Actions, Docker, PowerShell" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css,tauri,graphql&amp;perline=8&amp;theme=dark" width="650" alt="TypeScript, JavaScript, React, Next.js, HTML, CSS, Tauri and GraphQL" />
 
-<img src="assets/toolkit-design.svg" width="100%" alt="Design and media: Figma, Photoshop, Illustrator, InDesign, Lightroom, Premiere Pro" />
+<br/><br/>
 
-<img src="assets/toolkit-ecosystem.svg" width="100%" alt="Media and workflows: Jellyfin, Stremio, AIOStreams, LM Studio, MCP, VS Code, Linux" />
+**Systems & automation**
+
+<img src="https://skillicons.dev/icons?i=nodejs,python,git,github,githubactions,docker,powershell,vscode,linux&amp;perline=9&amp;theme=dark" width="680" alt="Node.js, Python, Git, GitHub, GitHub Actions, Docker, PowerShell, VS Code and Linux" />
+
+<br/><br/>
+
+**Graphic design & production**
+
+<img src="https://skillicons.dev/icons?i=figma,ps,ai,pr&amp;perline=4&amp;theme=dark" width="304" alt="Figma, Adobe Photoshop, Adobe Illustrator and Adobe Premiere Pro" />&nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg" width="62" height="62" alt="Adobe InDesign" />&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/adobe-lightroom.svg" width="62" height="62" alt="Adobe Lightroom" />
+
+<br/><br/>
+
+**Media & AI workflows**
+
+<a href="https://jellyfin.org/"><img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/jellyfin.svg" width="62" height="62" alt="Jellyfin" /></a>&nbsp;&nbsp;<a href="https://www.stremio.com/"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/64x64/apps/com.stremio.Stremio.svg" width="62" height="62" alt="Stremio" /></a>&nbsp;&nbsp;<img src="assets/brand-aiostreams.svg" width="62" height="62" alt="AIOStreams" />&nbsp;&nbsp;<a href="https://lmstudio.ai/"><img src="assets/brand-lm-studio.svg" width="62" height="62" alt="LM Studio" /></a>&nbsp;&nbsp;<a href="https://modelcontextprotocol.io/"><img src="assets/brand-mcp.svg" width="62" height="62" alt="Model Context Protocol" /></a>
 
 <br/><br/>
 
@@ -46,7 +60,7 @@ I like connecting applications that should work together, developing useful plug
 
 <br/>
 
-<a href="https://github.com/G1NYU/RE-Harbor"><img src="assets/project-harbor.svg" alt="RE-Harbor media application" width="128" align="left" /></a>
+<a href="https://github.com/G1NYU/RE-Harbor"><img src="https://raw.githubusercontent.com/G1NYU/RE-Harbor/beta-branch/docs/media/harbor-mark.svg" alt="Harbor logo" width="105" align="left" /></a>
 
 ### RE-Harbor
 
@@ -71,7 +85,7 @@ The long-term Refract goal is a unified media tracker, with watchlist syncing ne
 
 <br/>
 
-<a href="https://github.com/G1NYU/mihon-to-anymex"><img src="assets/project-migration.svg" width="128" align="left" alt="Manga library migration and backup conversion" /></a>
+<a href="https://github.com/G1NYU/mihon-to-anymex"><img src="https://storage.ko-fi.com/cdn/useruploads/post/4577af25-8a01-4cdf-ae95-9093ea50fdc1_neobun.png" width="105" align="left" alt="mihon-to-anymex project logo" /></a>
 
 ### mihon-to-anymex
 
@@ -92,7 +106,7 @@ Built a client-side migration application for moving reading libraries between M
 
 <br/>
 
-<a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/project-plugins.svg" width="128" align="left" alt="Harbor Plugins source library" /></a>
+<a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/plugins-icon.svg" width="105" align="left" alt="Harbor Plugins icon" /></a>
 
 ### Harbor Plugins
 
@@ -116,7 +130,7 @@ An actively maintained fork with multilingual manga and Western comics source ad
 
 <br/>
 
-<a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/project-void.svg" width="128" align="left" alt="VOID interface design" /></a>
+<a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/void-icon.svg" width="105" align="left" alt="VOID theme icon" /></a>
 
 ### VOID
 
@@ -137,7 +151,7 @@ Rich-effects experiments evolved into a lighter, static CSS approach guided by r
 
 <br/>
 
-<a href="https://github.com/G1NYU/G1NYU/tree/main/cv"><img src="assets/project-design.svg" width="128" align="left" alt="Graphic design, typography and visual identity" /></a>
+<a href="https://github.com/G1NYU/G1NYU/tree/main/cv"><img src="https://skillicons.dev/icons?i=ai&amp;theme=dark" width="105" align="left" alt="Adobe Illustrator, graphic design and visual identity" /></a>
 
 ### Graphic design & visual identity
 
@@ -231,9 +245,9 @@ Technical configuration and troubleshooting work across **AIOStreams and Stremio
 
 <br/>
 
-<a href="https://github.com/G1NYU"><img src="assets/link-github.svg" width="72" alt="GitHub" /></a>&nbsp;&nbsp;
-<a href="https://discord.gg/giinyu"><img src="assets/link-discord.svg" width="72" alt="Discord" /></a>&nbsp;&nbsp;
-<a href="https://instagram.com/icecoldwill"><img src="assets/link-instagram.svg" width="72" alt="Instagram" /></a>
+<a href="https://github.com/G1NYU"><img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="60" alt="GitHub" /></a>&nbsp;&nbsp;
+<a href="https://discord.gg/giinyu"><img src="https://skillicons.dev/icons?i=discord&amp;theme=dark" width="60" alt="Discord" /></a>&nbsp;&nbsp;
+<a href="https://instagram.com/icecoldwill"><img src="https://skillicons.dev/icons?i=instagram&amp;theme=dark" width="60" alt="Instagram" /></a>
 
 <br/><br/>
 
