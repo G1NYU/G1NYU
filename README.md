@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
+<img src="assets/profile-hero.svg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
 
 <br/><br/>
 
@@ -26,15 +26,13 @@ I like connecting applications that should work together, developing useful plug
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css&amp;perline=6&amp;theme=dark" width="570" alt="TypeScript, JavaScript, React, Next.js, HTML and CSS" />
+<img src="assets/toolkit-frontend.svg" width="100%" alt="Frontend and app: TypeScript, JavaScript, React, Next.js, HTML and CSS, Tauri, GraphQL" />
 
-<br/><br/>
+<img src="assets/toolkit-systems.svg" width="100%" alt="Systems and automation: Node.js, Python, Git, GitHub Actions, Docker, PowerShell" />
 
-<img src="https://skillicons.dev/icons?i=nodejs,python,git,github,githubactions,docker&amp;perline=6&amp;theme=dark" width="570" alt="Node.js, Python, Git, GitHub, GitHub Actions and Docker" />
+<img src="assets/toolkit-design.svg" width="100%" alt="Design and media: Figma, Photoshop, Illustrator, InDesign, Lightroom, Premiere Pro" />
 
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=figma,linux,vscode,tauri&amp;perline=4&amp;theme=dark" width="360" alt="Figma, Linux, VS Code and Tauri" />
+<img src="assets/toolkit-ecosystem.svg" width="100%" alt="Media and workflows: Jellyfin, Stremio, AIOStreams, LM Studio, MCP, VS Code, Linux" />
 
 <br/><br/>
 
@@ -48,7 +46,7 @@ I like connecting applications that should work together, developing useful plug
 
 <br/>
 
-<a href="https://github.com/G1NYU/RE-Harbor"><img src="https://raw.githubusercontent.com/G1NYU/RE-Harbor/beta-branch/docs/media/harbor-mark.svg" alt="Harbor logo" width="105" align="left" /></a>
+<a href="https://github.com/G1NYU/RE-Harbor"><img src="assets/project-harbor.svg" alt="RE-Harbor media application" width="128" align="left" /></a>
 
 ### RE-Harbor
 
@@ -73,11 +71,15 @@ The long-term Refract goal is a unified media tracker, with watchlist syncing ne
 
 <br/>
 
+<a href="https://github.com/G1NYU/mihon-to-anymex"><img src="assets/project-migration.svg" width="128" align="left" alt="Manga library migration and backup conversion" /></a>
+
 ### mihon-to-anymex
 
 **Browser-based manga & anime library migration**
 
 [Repository](https://github.com/G1NYU/mihon-to-anymex) &nbsp;·&nbsp; [Live converter](https://g1nyu.github.io/mihon-to-anymex/)
+
+<br clear="both"/>
 
 Built a client-side migration application for moving reading libraries between Mihon, Mangayomi and AnymeX, using a **Parse → Fetch → Build** pipeline rather than manual list reconstruction.
 
@@ -90,7 +92,7 @@ Built a client-side migration application for moving reading libraries between M
 
 <br/>
 
-<a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/plugins-icon.svg" width="105" align="left" alt="Harbor Plugins icon" /></a>
+<a href="https://github.com/G1NYU/harbor-plugins"><img src="assets/project-plugins.svg" width="128" align="left" alt="Harbor Plugins source library" /></a>
 
 ### Harbor Plugins
 
@@ -114,7 +116,7 @@ An actively maintained fork with multilingual manga and Western comics source ad
 
 <br/>
 
-<a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/void-icon.svg" width="105" align="left" alt="VOID theme icon" /></a>
+<a href="https://github.com/G1NYU/RE-Harbor/pull/6"><img src="assets/project-void.svg" width="128" align="left" alt="VOID interface design" /></a>
 
 ### VOID
 
@@ -135,11 +137,15 @@ Rich-effects experiments evolved into a lighter, static CSS approach guided by r
 
 <br/>
 
+<a href="https://github.com/G1NYU/G1NYU/tree/main/cv"><img src="assets/project-design.svg" width="128" align="left" alt="Graphic design, typography and visual identity" /></a>
+
 ### Graphic design & visual identity
 
 **Brand systems, print production, product photography & creative direction**
 
 [CV & design experience](https://github.com/G1NYU/G1NYU/tree/main/cv) &nbsp;·&nbsp; [Portfolio](https://g1nyu.github.io/)
+
+<br clear="both"/>
 
 My design practice spans **more than a decade**, from identity development and print production to digital interfaces and community-facing artwork.
 
@@ -225,9 +231,9 @@ Technical configuration and troubleshooting work across **AIOStreams and Stremio
 
 <br/>
 
-<a href="https://github.com/G1NYU"><img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="60" alt="GitHub" /></a>&nbsp;&nbsp;
-<a href="https://discord.gg/giinyu"><img src="https://skillicons.dev/icons?i=discord&amp;theme=dark" width="60" alt="Discord" /></a>&nbsp;&nbsp;
-<a href="https://instagram.com/icecoldwill"><img src="https://skillicons.dev/icons?i=instagram&amp;theme=dark" width="60" alt="Instagram" /></a>
+<a href="https://github.com/G1NYU"><img src="assets/link-github.svg" width="72" alt="GitHub" /></a>&nbsp;&nbsp;
+<a href="https://discord.gg/giinyu"><img src="assets/link-discord.svg" width="72" alt="Discord" /></a>&nbsp;&nbsp;
+<a href="https://instagram.com/icecoldwill"><img src="assets/link-instagram.svg" width="72" alt="Instagram" /></a>
 
 <br/><br/>
 
