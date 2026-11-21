@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
+<img src="assets/hero-manga-sans.jpg" width="100%" alt="giinyu. Design meets development. Media software, integrations and interfaces." />
 
 <br/><br/>
 
@@ -46,7 +46,7 @@ I like connecting applications that should work together, developing useful plug
 
 **Media & AI workflows**
 
-<a href="https://jellyfin.org/"><img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/jellyfin.svg" width="62" height="62" alt="Jellyfin" /></a>&nbsp;&nbsp;<a href="https://www.stremio.com/"><img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/Papirus/64x64/apps/com.stremio.Stremio.svg" width="62" height="62" alt="Stremio" /></a>&nbsp;&nbsp;<img src="assets/brand-aiostreams.svg" width="62" height="62" alt="AIOStreams" />&nbsp;&nbsp;<a href="https://lmstudio.ai/"><img src="assets/brand-lm-studio.svg" width="62" height="62" alt="LM Studio" /></a>&nbsp;&nbsp;<a href="https://modelcontextprotocol.io/"><img src="assets/brand-mcp.svg" width="62" height="62" alt="Model Context Protocol" /></a>
+<a href="https://jellyfin.org/"><img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/jellyfin.svg" width="62" height="62" alt="Jellyfin" /></a>&nbsp;&nbsp;<a href="https://www.stremio.com/"><img src="assets/brand-stremio.svg" width="62" height="62" alt="Stremio" /></a>&nbsp;&nbsp;<img src="assets/brand-aiostreams.svg" width="62" height="62" alt="AIOStreams" />&nbsp;&nbsp;<a href="https://lmstudio.ai/"><img src="assets/brand-lm-studio.svg" width="62" height="62" alt="LM Studio" /></a>&nbsp;&nbsp;<a href="https://modelcontextprotocol.io/"><img src="assets/brand-mcp.svg" width="62" height="62" alt="Model Context Protocol" /></a>
 
 <br/><br/>
 
