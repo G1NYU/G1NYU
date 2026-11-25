@@ -34,7 +34,7 @@ I like connecting applications that should work together, developing useful plug
 
 **Systems & automation**
 
-<img src="https://skillicons.dev/icons?i=nodejs,python,git,github,githubactions,docker,powershell,vscode,linux&amp;perline=9&amp;theme=dark" width="680" alt="Node.js, Python, Git, GitHub, GitHub Actions, Docker, PowerShell, VS Code and Linux" />
+<img src="https://skillicons.dev/icons?i=nodejs,python,git,github,githubactions,docker,powershell,vscode,linux,rust&amp;perline=10&amp;theme=dark" width="755" alt="Node.js, Python, Git, GitHub, GitHub Actions, Docker, PowerShell, VS Code, Linux and Rust" />
 
 <br/><br/>
 
@@ -57,6 +57,29 @@ I like connecting applications that should work together, developing useful plug
 <br/><br/>
 
 ## Selected work
+
+<br/>
+
+<a href="https://github.com/G1NYU/TSUGI"><img src="https://raw.githubusercontent.com/G1NYU/TSUGI/main/branding/tsugi-mark.svg" alt="Tsugi logo" width="105" align="left" /></a>
+
+### Tsugi (つぎ / 次)
+
+**Native desktop media software · Extension ecosystems · Product design**
+
+[Repository](https://github.com/G1NYU/TSUGI) &nbsp;·&nbsp; [Windows releases](https://github.com/G1NYU/TSUGI/releases) &nbsp;·&nbsp; [Source](https://github.com/G1NYU/TSUGI/tree/feature/tsugi-read-runtime)
+
+<br clear="both"/>
+
+An independent AGPL-3.0 fork of AIOStreams, expanded into a Windows-first media workspace for **Movies & TV, Music, Read and Vault**. Tsugi (次, *next*) expresses continuity between media and the idea of joining independent source ecosystems under one coherent interface.
+
+- **Streaming architecture** — Stremio-compatible addons through AIOStreams and its Jellyfin-compatible API, with native mpv playback, server-driven catalogues, stream versions, subtitles and watch state.
+- **Native audio engineering** — Rust/WebView2 bridge, yt-dlp and Deno transport, bounded replay and next-track prefetch, mpv audio filters, RMS-level telemetry and Web Audio analysis; full-window player layouts, reactive SVG/canvas-inspired visualizers, persistent album snapshots, track saves and queue management.
+- **Extension-based reading** — In-app Mihon-compatible repository management, a pinned app-managed Suwayomi/Java runtime, GraphQL source discovery, continuous and paginated manga reading, isolated EPUB/PDF rendering with Readest/Foliate and PDF.js, and initial MAL/AniList tracker integrations.
+- **Transfer orchestration** — Native persistent download queues, Aria2 Next JSON-RPC, TorBox API integration, concurrent transfers, progress, retry and cancellation, and local media-library handoff.
+- **Design direction** — Original brush-stroke identity, Segoe UI Variable typography, Japanese minimalism and ma, Swiss editorial grids and Bauhaus-inspired functionalism. Six coordinated dark palettes, independent accents, shared design tokens, bespoke icons and original SVG brand illustrations.
+- **Engineering & distribution** — Cargo, pnpm, Vitest, Playwright, GitHub Actions and PowerShell; native fixture tests, browser interaction and layout regressions, checksum-verified Windows x64 packaging, release gates and third-party license/source attribution.
+
+**Release milestone** — Public portable Windows previews are available. The first non-preview release is undergoing final CI validation. Cold-start audio latency, live tracker sync and individual third-party source compatibility remain acceptance items.
 
 <br/>
 
@@ -176,13 +199,15 @@ My design practice spans **more than a decade**, from identity development and p
 
 **Application development** — React, TypeScript, JavaScript, Next.js, HTML/CSS, Tauri/WebView2; desktop and web interfaces, state-driven components and application integration.
 
-**API & data integration** — REST, JSON, authentication, metadata matching, cursor pagination, synchronization, idempotency, retry queues and library migration.
+**Native systems & media engineering** — Rust, Cargo, WebView2 host bridges, mpv/libmpv, FFmpeg, yt-dlp, Deno and Web Audio; native playback integration, process lifecycle, bounded buffering, audio filters, measured audio-level visualizers and cross-workspace state.
 
-**Extensions & automation** — Node.js, Python, esbuild, Git and GitHub Actions; source adapters, data extraction, testing, CI/CD and packaging.
+**API & data integration** — REST, JSON, authentication, metadata matching, cursor pagination, synchronization, idempotency, retry queues and library migration. GraphQL, JSON-RPC, Jellyfin, Suwayomi, Eclipse manifests, LRCLIB, MAL/AniList and TorBox; provider adapters, extension-repository management and persistent collection metadata.
+
+**Extensions & automation** — Node.js, Python, esbuild, Git and GitHub Actions; source adapters, data extraction, testing, CI/CD and packaging. pnpm workspaces, Cargo, Vitest, Playwright, native runtime provisioning, Windows release automation and SHA-256 package verification.
 
 **Performance & visual design** — DevTools, frame timing, lazy loading, SVG and Figma; profiling, rendering efficiency, accessible dark interfaces and cohesive design systems.
 
-I also work with Docker, Jellyfin, Stremio and AIOStreams for self-hosted media, LM Studio and MCP for local AI workflows, and scripting for repetitive tasks. Tauri/Rust-based applications remain an active area of exploration.
+I also work with Docker, Jellyfin, Stremio and AIOStreams for self-hosted media, LM Studio and MCP for local AI workflows, and scripting for repetitive tasks. Tsugi extends my desktop work into Rust native media runtimes, managed sidecars and multi-engine application architecture.
 
 <br/><br/>
 
